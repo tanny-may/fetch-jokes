@@ -13,10 +13,10 @@ function App() {
     setError(null);
     try {
       const response = await fetch(
-        'https://official-joke-api.appspot.com/random_ten'
+        'https://official-joke-api.appspot.com/jokes/programming/ten'
       );
       if (!response.ok) {
-        throw new Error('что-то пошло не так')
+        throw new Error('Something goes wrong')
       }
       const data = await response.json();
     
@@ -32,15 +32,16 @@ function App() {
     fetchJokesHandler();
   }, [fetchJokesHandler]);
 
-  let content = <p>Шуток не найдено</p>;
+  let content = <p>No jokes found  </p>;
   if (jokes.length > 0) content = <JokeList jokes={jokes} />;
   if (error) content = <p>{error}</p>;
-  if (isLoading) content = <p>Загрузка шуток...</p>
+  if (isLoading) content = <p>Jokes are loading...</p>
 
   return (
     <React.Fragment>
       <section>
-        <button onClick={fetchJokesHandler}>Fetch Jokes</button>
+        <h1>PROGRAMMING JOKES WEBSITE</h1>
+        <button onClick={fetchJokesHandler}> <b>Refresh 10 jokes</b></button>
       </section>
       <section>{content}</section>
     </React.Fragment>

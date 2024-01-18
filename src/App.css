@@ -5,24 +5,25 @@ section {
   text-align: center;
   padding: 2rem;
   border-radius: 12px;
-  background-color: #aa775b;
+  background-color: #01594c;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.25);
 }
 
 button {
   font: inherit;
   cursor: pointer;
-  background-color: #720f04;
-  color: #dbd6a6;
-  border: 1px solid #720f04;
+  background-color: #84fdeb;
+  color: #00110a;
+  border: 1px solid #84fdeb;
   border-radius: 8px;
   padding: 0.75rem 2rem;
+  box-shadow: 0 2px 10px rgba(233, 233, 233, 0.525);
 }
 
 button:hover,
 button:active {
-  background-color: #9a1d0f;
-  border-color: #9a1d0f;
+  background-color: #ffffff;
+  border-color: #ffffff;
 }
 
 button:focus {
