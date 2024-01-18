@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/fetch-jokes/static/css/main.e470ac8e.chunk.css",
+    "main.js": "/fetch-jokes/static/js/main.6a79a675.chunk.js",
+    "main.js.map": "/fetch-jokes/static/js/main.6a79a675.chunk.js.map",
+    "runtime-main.js": "/fetch-jokes/static/js/runtime-main.20e5b820.js",
+    "runtime-main.js.map": "/fetch-jokes/static/js/runtime-main.20e5b820.js.map",
+    "static/js/2.18cd1dfe.chunk.js": "/fetch-jokes/static/js/2.18cd1dfe.chunk.js",
+    "static/js/2.18cd1dfe.chunk.js.map": "/fetch-jokes/static/js/2.18cd1dfe.chunk.js.map",
+    "index.html": "/fetch-jokes/index.html",
+    "precache-manifest.7eb298bd267cb1ab23924217e62120c7.js": "/fetch-jokes/precache-manifest.7eb298bd267cb1ab23924217e62120c7.js",
+    "service-worker.js": "/fetch-jokes/service-worker.js",
+    "static/css/main.e470ac8e.chunk.css.map": "/fetch-jokes/static/css/main.e470ac8e.chunk.css.map",
+    "static/js/2.18cd1dfe.chunk.js.LICENSE.txt": "/fetch-jokes/static/js/2.18cd1dfe.chunk.js.LICENSE.txt",
+    "static/js/main.6a79a675.chunk.js.LICENSE.txt": "/fetch-jokes/static/js/main.6a79a675.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.20e5b820.js",
+    "static/js/2.18cd1dfe.chunk.js",
+    "static/css/main.e470ac8e.chunk.css",
+    "static/js/main.6a79a675.chunk.js"
+  ]
+}
