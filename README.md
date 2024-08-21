@@ -4,7 +4,7 @@
 https://tanny-may.github.io/fetch-jokes/
 
 ## О проекте
-Учебный React-проект страницы для загрузки шуток с official_joke_api в рамках курса "Современный React" (YouRa Allakhverdov).
+Учебный React-проект страницы для загрузки шуток с official_joke_api.
 
 ![image](https://github.com/tanny-may/fetch-jokes/assets/111642725/6e9cb1c1-aa97-498f-b5aa-94e85daa25ba)
 
